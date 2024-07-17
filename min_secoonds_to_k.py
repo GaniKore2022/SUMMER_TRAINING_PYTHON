@@ -1,0 +1,6 @@
+n,k=input().split()
+arr=list(map(int,input().split()))
+n=int(n)
+k=int(k)
+x=min(arr)
+print(k-x)
